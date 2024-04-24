@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: red;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.caixa {
+    width: 80px;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 1px;
+}

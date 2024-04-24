@@ -1,0 +1,30 @@
+Aula 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Na linguagem JS o ; (ponto e vírgula) é opcional.
+Pode-se utilizar "" ou '' só não pode combiná-los.
+Dica: "" para textos e '' para importações.
+
+Nas estruturas de controle condicional e nos laços de repetições pode-se omitir as chaves, porém só uma linha de código será vinculada.
+
+Variáveis na linguagem JS são dinamicamente tipadas e somente 3 tipos: (string, number e boolean) 
+Para declarar uma constante ou variável podemos usar: const, var, let
+var É OBSOLETO (!NÃO UTILIZAR!)
+
+Sintaxe JS:
+    console.log // printar no terminal
+    console.clear() // limpar o terminal
+
+Strings:
+    .replace (",",".") // substitui um caractere por outro
+
+Concatenação // unir texto com conteúdo de variáveis:
+    + // Evitar o uso devido a tipagem dinâmica
+    `${}` // Mais usado na linguagem JS
+
+Numbers:
+Number // converte para o tipo numérico
+Number.isInteger // Verifica se o número é inteiro
+.toFixed(x) // Formatar número de acordo com a quantidade de casas decimais
+
+Booleans:
+

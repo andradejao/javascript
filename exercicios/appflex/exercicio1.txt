@@ -1,0 +1,16 @@
+Desenvolver um aplicativo WEB para calcular o tipo de combustível que é mais vantajoso abastecer em um carro flex.
+
+Segundo as montadoras é mais vantajoso abastecer com etanol se o litro do etanol custar até 70% do valor do litro da gasolina
+
+variáveis: etanol, gasolina
+
+entrada: etanol, gasolina
+
+processamento:
+if (etanol < 0.7 * gasolina) {
+    // etanol
+}else {
+    // gasolina
+}
+
+saída: gasolina ou etanol 
