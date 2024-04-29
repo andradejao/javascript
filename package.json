@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Tutorial de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andradejao/javascript.git"
+  },
+  "author": "João Vitor Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andradejao/javascript/issues"
+  },
+  "homepage": "https://github.com/andradejao/javascript#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "readline-sync": "^1.4.10"
+  }
+}
