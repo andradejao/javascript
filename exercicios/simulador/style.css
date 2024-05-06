@@ -12,6 +12,11 @@ img {
     max-width: 100%;
 }
 
+.container {
+    margin: 50px 0px;
+    text-align: center;
+}
+
 /* Cabeçalho*/
 
 header h1 {
@@ -29,8 +34,10 @@ nav ul {
     padding: 0;
     margin: 0;
     background: #e15a1f;
-    overflow: hidden; /* Esconde a barra de rolagem */
+    overflow: hidden;
+    /* Esconde a barra de rolagem */
 }
+
 nav ul li {
     float: left;
 }
@@ -47,6 +54,15 @@ nav ul li a:hover {
     transition: all 0.4s;
 }
 
+/* Conteúdo */
+#sw1 {
+    float: left;
+}
+
+#sw2 {
+    float: right;
+}
+
 /* Rodapé >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 footer {
     width: 100%;
@@ -54,6 +70,20 @@ footer {
     color: #ffffff;
     padding: 5px 0px;
     text-align: center;
-    
+}
 
+/* Layout Tela Maior */
+@media (min-width: 576px) {
+
+    header h1 {
+        text-align: left;
+    }
+
+    .container {
+        text-align: left;
+    }
+
+    #sw2 {
+        float: left;
+    }
 }
