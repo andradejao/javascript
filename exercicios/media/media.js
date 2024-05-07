@@ -30,3 +30,7 @@ function calcular() {
         }
     }
 }
+
+function limpar() {
+    document.getElementById('status').src = "./img/iconpage.png"
+}
