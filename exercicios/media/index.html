@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Média</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./img/iconpage.png">
+    <title>Calculadora Média</title>
 </head>
 
 <body>
-    <h1>Média Aluno</h1>
-    <img src="./img/iconpage.png" alt="icone">
     <div class="container">
+        <h1>Calculadora Média</h1>
+        <img id="status" src="./img/iconpage.png" alt="icon">
         <form name="frmMedia">
-            <input type="number" name="txtNota1" placeholder="Nota 1">
-            <input type="number" name="txtNota2" placeholder="Nota 2">
-            <input type="number" name="txtNota3" placeholder="Nota 3">
-            <input type="number" name="txtNota4">
-            <input type="button" value="Confirmar">
-            <input type="reset" value="Limpar">
+            <input type="number" name="txtNota1" placeholder="Nota1" class="caixa">
+            <input type="number" name="txtNota2" placeholder="Nota2" class="caixa">
+            <input type="number" name="txtNota3" placeholder="Nota3" class="caixa">
+            <input type="number" name="txtNota4" placeholder="Nota4" class="caixa">
+            <input type="button" value="Calcular" onclick="calcular()">
+            <input type="reset" value="Limpar" onclick="limpar()">
         </form>
     </div>
+    <script src="media.js"></script>
 </body>
 
 </html>
