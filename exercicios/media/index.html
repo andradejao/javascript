@@ -14,14 +14,20 @@
         <h1>Calculadora Média</h1>
         <img id="status" src="./img/iconpage.png" alt="icon">
         <form name="frmMedia">
-            <input type="number" name="txtNota1" placeholder="Nota1" class="caixa">
-            <input type="number" name="txtNota2" placeholder="Nota2" class="caixa">
-            <input type="number" name="txtNota3" placeholder="Nota3" class="caixa">
-            <input type="number" name="txtNota4" placeholder="Nota4" class="caixa">
-            <input type="button" value="Calcular" onclick="calcular()">
+            <p><input type="number" name="txtNota1" placeholder="Nota1" class="caixa"></p>
+            <p><input type="number" name="txtNota2" placeholder="Nota2" class="caixa"></p>
+            <p><input type="number" name="txtNota3" placeholder="Nota3" class="caixa"></p>
+            <p><input type="number" name="txtNota4" placeholder="Nota4" class="caixa"></p>
+            <input type="text" name="txtMedia" placeholder="Média" class="caixa" disabled>
+            <input type="text" name="txtStatus" placeholder="Status" class="caixa" disabled>
+            <p><input type="button" value="Calcular" onclick="calcular()"></p>
             <input type="reset" value="Limpar" onclick="limpar()">
         </form>
     </div>
+
+    <footer>
+        <p>&#169;2024 João Vitor Andrade</p>
+    </footer>
     <script src="media.js"></script>
 </body>
 

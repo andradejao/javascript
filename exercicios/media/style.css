@@ -8,7 +8,7 @@ body {
 }
 
 .container h1 {
-    color: red;
+    color: blue;
 }
 
 .container img {
@@ -17,7 +17,28 @@ body {
 
 .caixa {
     width: 80px;
-    border: 1px solid red;
+    border: 3px solid blue;
     padding: 5px;
-    border-radius: 1px;
+    border-radius: 2px;
+}
+
+input[type = "button"],
+input[type = "reset"] {
+    width: 100px;
+    height: 30px;
+    color: blue;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 2px 0;
+    margin-top: 15px;
+    color: white;
 }

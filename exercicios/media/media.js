@@ -20,13 +20,16 @@ function calcular() {
     }else {
         if(resultado < 4 ) {
             document.getElementById('status').src = "./img/reprovado.jpg"
-            alert(`A média do aluno é ${resultado}, ele está reprovado!`)
+            frmMedia.txtStatus.value = "Reprovado!"
+            frmMedia.txtMedia.value = `${resultado}`
         }else if (resultado >= 7){
             document.getElementById('status').src = "./img/aprovado.png"
-            alert(`A média do aluno é ${resultado}, ele está aprovado!`)
+            frmMedia.txtStatus.value = "Aprovado!"
+            frmMedia.txtMedia.value = `${resultado}`
         }else {
             document.getElementById('status').src = "./img/recuperacao.webp"
-            alert(`A média do aluno é ${resultado}, ele está de recuperação!`)
+            frmMedia.txtStatus.value = "Recuperação!"
+            frmMedia.txtMedia.value = `${resultado}`
         }
     }
 }
