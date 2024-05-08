@@ -1,0 +1,8 @@
+Atividade de avaliação
+Desenvolver um WEB APP de acordo com o tema determinado pelo professor (calculadoras)
+- Layout responsivo
+- UX (Experiência do usuário)
+- Validações
+- Criar uma pasta dentro de exercícios com o nome do tema
+- Sincronizar com o GitHub
+

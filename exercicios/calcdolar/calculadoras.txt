@@ -1,0 +1,17 @@
+1) Calcular a área e o perímetro de um retângulo
+2) Calcular a frequência cardíaca máxima (fórmula de tanaka)
+3) Converter a temperatura de Kelvin para Celsius
+4) Converter pés(unidade de medida) em metros
+5) Cálculo de combustível (valor gasto por kilômetro rodado)
+6) Cálculo de combustível (quanto vai ser gasto em uma viagem)
+7) Cálculo da autonomia de um veículo (quantos kilômetros posso rodar)
+8) Calcular o volume de um aquário
+9) Converter dólar para real (a cotação varia todo dia)     <><><><><><><><>
+10) Converter real para dólar (a cotação varia todo dia)
+11) Converter euro para real (a cotação varia todo dia)
+12) Converter real para euro (a cotação varia todo dia)
+13) Calcular a quantidade de tijolos por metro quadrado (tijolo maciço)
+14) Calcular a quantidade de tijolos por metro quadrado (tijolo baiano 8 furos)
+15) Converter passos em kilômetros
+16) Calcular o desconto de vale transporte
+17) Converter Mb para Gb

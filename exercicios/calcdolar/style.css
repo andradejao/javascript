@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 2px;
+}
+
+h1 {
+    color: #85bb65;
+}
+
+input[type = "reset"], 
+input[type = "button"] {
+    color: #fff;
+    background-color: #85bb65;
+    width: 100px;
+    height: 30px;
+}
+input {
+    width: 300px;
+    height: 20px;
+    color: #85bb65;
+    font-size: 12pt;
+}

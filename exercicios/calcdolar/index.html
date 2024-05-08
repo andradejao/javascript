@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor Dólar</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor Dólar</h1>
+    </div>
+    <form name="frmDolar">
+        <img src="./img/icon.png" alt="icon">
+        <p><input type="number" name="txtCambio" placeholder="Câmbio Dólar em Real" class = "caixa"></p>
+        <p><input type="number" name="txtDolar" placeholder="Quantidade em Dólar" class = "caixa"></p>
+        <p><input type="number" name="txtValor" placeholder="Valor Final" id="" disabled></p>
+        <input type="button" value = "Vantagem" onclick="calcular()">
+        <input type="reset" value = "Limpar">
+    </form>
+
+    <script src="dolar.js"></script>
+</body>
+</html>
