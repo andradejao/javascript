@@ -17,16 +17,16 @@ function calcular() {
         alert("Preencha o valor da nota")
     } else if (frmMedia.txtNota4.value === "") {
         alert("Preencha o valor da nota")
-    }else {
-        if(resultado < 4 ) {
+    } else {
+        if (resultado < 4) {
             document.getElementById('status').src = "./img/reprovado.jpg"
             frmMedia.txtStatus.value = "Reprovado!"
             frmMedia.txtMedia.value = `${resultado}`
-        }else if (resultado >= 7){
+        } else if (resultado >= 7) {
             document.getElementById('status').src = "./img/aprovado.png"
             frmMedia.txtStatus.value = "Aprovado!"
             frmMedia.txtMedia.value = `${resultado}`
-        }else {
+        } else {
             document.getElementById('status').src = "./img/recuperacao.webp"
             frmMedia.txtStatus.value = "Recuperação!"
             frmMedia.txtMedia.value = `${resultado}`

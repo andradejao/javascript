@@ -79,3 +79,34 @@ Função Simples:
 function nome() {
     
 }
+
+Aula 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Função é um bloco de código reutilizável
+
+Função Simples:
+function nome() {
+}
+
+Função com Retorno:
+function nome() {
+    return
+}
+
+Função Anônima:
+const nome = function() {
+
+}
+
+let nome = function() {
+    
+}
+
+Funções em JavaScript moderno podem ser simplificadas
+
+___________________________________________________________
+obs:
+typeof // Verifica a tipagem dinâmica
+primitivos (string, number, boolean)
+function
+object

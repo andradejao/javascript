@@ -22,13 +22,17 @@ body {
     border-radius: 2px;
 }
 
-input[type = "button"],
-input[type = "reset"] {
+input[type="button"],
+input[type="reset"] {
     width: 100px;
     height: 30px;
     color: blue;
     font-weight: 600;
     font-size: 1.2em;
+}
+
+input {
+    text-align: center;
 }
 
 footer {
