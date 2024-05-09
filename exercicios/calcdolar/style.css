@@ -21,3 +21,7 @@ input {
     color: #85bb65;
     font-size: 12pt;
 }
+
+input[type = "number"]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
