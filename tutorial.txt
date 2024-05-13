@@ -124,4 +124,11 @@ Pilares:
 ATENÇÃO!
 Toda classe modelo inicia com letra maiúscula
 
-new (IMPORTANTE!) // indica a criação de um objeto
+IMPORTANTE!!!
+new  // indica a criação de um objeto
+this  // quando se refere a ele mesmo
+super // indica o uso de atributos da classe pai
+
+polimorfismo // é a mudança de comportamento de um método já existente
+*** ATENÇÃO! o Polimorfismo não cria outro método, apenas modifica o comportamento do método existente.
+Obrigatório usar o mesmo nome de método da classe pai ***
