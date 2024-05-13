@@ -110,3 +110,18 @@ typeof // Verifica a tipagem dinâmica
 primitivos (string, number, boolean)
 function
 object
+
+Aula 4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+POO - Programação Orientada a Objetos
+
+Pilares:
+- Abstração
+- Herança
+- Polimorfismo
+- Encapsulamento
+
+ATENÇÃO!
+Toda classe modelo inicia com letra maiúscula
+
+new (IMPORTANTE!) // indica a criação de um objeto
