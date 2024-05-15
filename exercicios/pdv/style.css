@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #caf1de;
+    padding: 20px;
+    margin: 2px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+input {
+    width: 45%;
+    height: 25px;
+    border: solid 0.1px black;
+    border-radius: 5px;
+}
+
+input[type="button"], 
+input[type="reset"]{
+    font-size: 14pt;
+}
