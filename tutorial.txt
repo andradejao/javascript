@@ -119,7 +119,7 @@ Pilares:
 - Abstração
 - Herança
 - Polimorfismo
-- Encapsulamento
+- Encapsulamento (Segurança)
 
 ATENÇÃO!
 Toda classe modelo inicia com letra maiúscula
@@ -132,3 +132,34 @@ super // indica o uso de atributos da classe pai
 polimorfismo // é a mudança de comportamento de um método já existente
 *** ATENÇÃO! o Polimorfismo não cria outro método, apenas modifica o comportamento do método existente.
 Obrigatório usar o mesmo nome de método da classe pai ***
+
+Dica:
+Class Classe {} // cria uma classe modelo
+- O nome da classe sempre deve começar com uma letra maiúscula
+- Classe (biologia)
+- objeto (new) (substantivo)
+- atributos (variáveis) (adjetivos)
+- ações (métodos/funções) (verbos)
+
+Encapsulamento
+1º) Proteger a variável criando um modificador privado (Acesso exclusivo da classe ao qual pertence)
+2º) Criar uma função para obter o conteúdo da variável (get)
+3º) Criar uma função para gravar um dado na variável (set)
+
+No Js utiliza-se _ antes da variável para encapsular
+
+Aula 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+No Js objetos podem ser criados sem uma classe modelo
+Estrutura de dados usando objetos
+Exemplos:
+- package.json
+- coleção do banco de dados (MongoDB)
+
+ATENÇÃO!!!
+Tipos de Js
+- string
+- number
+- boolean
+- function
+- object
