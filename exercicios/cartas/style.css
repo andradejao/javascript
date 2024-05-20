@@ -3,6 +3,84 @@
     @author João Vitor Andrade
 */
 
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root {
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinzaclaro: #f0f0f0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--cinzaclaro);
+    font-family: sans-serif;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    border: 1px solid var(--preto);
+    background-color: var(--branco);
+    border-radius: 30px;
+    font-size: 1.2em;
+}
+
+/* Carta */
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 350px;
+    background-color: var(--branco);
+    border: 1px solid var(--preto);
+    border-radius: 10px;
+    position: relative;
+    /*  */
+    margin-bottom: 50px;
+}
+
+.canto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+}
+
+#supEsq {
+    top: 25px;
+    left: 5px;
+    text-align: left;
+}
+
+#infDir {
+    bottom: 25px;
+    right: 5px;
+    text-align: right;
+    transform: rotate(180deg); /* girar 180º*/
+}
+
+.face {
+    font-size: 6em;
+
 }

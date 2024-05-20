@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <button onclick="sortearCarta()">Sortear Carta</button>
+    <!-- CSS FLEX - Alinhamento Vertical (Carta - Botão) -->
+    <div class="container">
+        <!-- CSS FLEX - Desenhar a carta com os elementos -->
+        <div class="carta">
+            <div class="canto" id="supEsq"></div>
+            <div class="face" id="centro"></div>
+            <div class="canto" id="infDir"></div>
+
+        </div>
+        <button onclick="sortearCarta()">Sortear Carta</button>
+    </div>
     <script src="cartas.js"></script>
 </body>
+
 </html>
