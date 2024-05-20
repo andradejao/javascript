@@ -1,3 +1,8 @@
+/**
+ * Lógica do PDV
+ * @author João Vitor Andrade
+ */
+
 let totalCompra, desconto, valorPago, valorFinal
 
 function calcularTotal() {
