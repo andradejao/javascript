@@ -26,11 +26,21 @@ function sortearCarta() {
     // Dar cor as cartas
     document.getElementById('supEsq').style.color = cor
     document.getElementById('infDir').style.color = cor
-    document.getElementById('centro').style.color = cor
 
     // Renderizar(desenhar) a carta
     document.getElementById('supEsq').innerHTML = `<div>${face}</div><div>${nipe}</div>`
-    document.getElementById('centro').innerHTML = `<div>${nipe}</div>`
     document.getElementById('infDir').innerHTML = `<div>${face}</div><div>${nipe}</div>`
 
+    let centroCarta = document.getElementById('centro')
+    if (face === 'J') {
+        centroCarta.innerHTML = `<img src ="./img/valete.png">`
+    }else if (face === 'Q') {
+        centroCarta.innerHTML = `<img src ="./img/dama.png">`
+    }else if (face === 'K'){
+        centroCarta.innerHTML = `<img src ="./img/rei.png">`
+    }else {
+        centroCarta.innerHTML = `${nipe}`
+        document.getElementById('centro').style.color = cor
+
+    }
 }
