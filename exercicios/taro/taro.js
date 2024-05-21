@@ -27,7 +27,7 @@ function sortearCarta() {
         case '2':
             document.getElementById('centro').innerHTML = `<img src = "./img/2-sacerdotisa.jpg">`
             document.getElementById('titulo').innerText = "II - A Sacerdotisa"
-            document.getElementById('texto').innerText = "A Sacerdotisa é um lembrete de que não temos como saber de tudo acerca de uma situação. Indica que ou não recebemos todos os fatos, ou não enxergamos todos os fatos ou outras pessoas podem estar retendo informações importantes. Indica segredos e que é melhor procurar pelas respostas."
+            document.getElementById('texto').innerText = "A Sacerdotisa é um lembrete de que não temos como saber de tudo acerca de uma situação. Indica que ou não recebemos todos os fatos, ou não enxergamos todos os fatos ou outras pessoas podem estar retendo informações importantes."
             break
         case '3':
             document.getElementById('centro').innerHTML = `<img src = "./img/3-imperatriz.jpg">`
@@ -47,7 +47,7 @@ function sortearCarta() {
         case '6':
             document.getElementById('centro').innerHTML = `<img src = "./img/6-enamorados.jpg">`
             document.getElementById('titulo').innerText = "VI - Os Enamorados"
-            document.getElementById('texto').innerText = "A carta Os Enamorados tem a ver com uma importante decisão que deve ser tomada. Quando a situação envolve trabalho ou amor, ela sugere que você siga sua intuição. Se o seu coração está mandando você seguir um caminho, confie em seus instintos. Só não faça as coisas pensando somente em você, pois o tiro pode sair pela culatra. Pense sempre em quem está envolvido, tente fazer o melhor para todos."
+            document.getElementById('texto').innerText = "A carta Os Enamorados tem a ver com uma importante decisão que deve ser tomada. Quando a situação envolve trabalho ou amor, ela sugere que você siga sua intuição. Se o seu coração está mandando você seguir um caminho, confie em seus instintos."
             break
         case '7':
             document.getElementById('centro').innerHTML = `<img src = "./img/7-carro.jpg">`
@@ -57,32 +57,32 @@ function sortearCarta() {
         case '8':
             document.getElementById('centro').innerHTML = `<img src = "./img/8-forca.jpg">`
             document.getElementById('titulo').innerText = "VIII - A Força"
-            document.getElementById('texto').innerText = "A Força representa as melhores características do signo de Leão, como coragem, determinação, resiliência e força, boas chaves para o sucesso. Porém, indica que para realizar seus objetivos, você também precisará de autocontrole para domar seus próprios leões interiores, que podem representar tanto seus conflitos internos quanto os obstáculos que a vida nos impõe."
+            document.getElementById('texto').innerText = "A Força representa as melhores características do signo de Leão, como coragem, determinação, resiliência e força, boas chaves para o sucesso. Porém, indica que para realizar seus objetivos, você também precisará de autocontrole para domar seus próprios leões interiores."
             break
         case '9':
             document.getElementById('centro').innerHTML = `<img src = "./img/9-eremita.jpg">`
             document.getElementById('titulo').innerText = "IX - O Eremita"
-            document.getElementById('texto').innerText = "O Eremita  pode significar que precisamos refletir em relação à situação. Às vezes é preciso dar um tempo e se isolar para ponderar e analisar melhor uma questão. Esta pode ser a mensagem que O Eremita traz: a necessidade de dar uma pausa e refletir. Anuncia que pode ser a hora de se afastar e analisar, mergulhar no seu interior em busca das respostas que você precisa no momento."
+            document.getElementById('texto').innerText = "O Eremita  pode significar que precisamos refletir em relação à situação. Às vezes é preciso dar um tempo e se isolar para ponderar e analisar melhor uma questão."
             break
         case '10':
             document.getElementById('centro').innerHTML = `<img src = "./img/10-fortuna.jpg">`
             document.getElementById('titulo').innerText = "X - A Roda da Fortuna"
-            document.getElementById('texto').innerText = "A Roda da Fortuna representa basicamente a colheita daquilo que plantamos. Apesar do seu significado otimista, não sugere prosperidade, sorte e fortuna do nada. Tudo isso está relacionado às ações que você tomou até o momento. Porém, se você se acomodou ou agiu de forma imprudente, sua colheita pode não ser das melhores. Isso vale para o curso da vida ou para a situação questionada."
+            document.getElementById('texto').innerText = "A Roda da Fortuna representa basicamente a colheita daquilo que plantamos. Apesar do seu significado otimista, não sugere prosperidade, sorte e fortuna do nada. Tudo isso está relacionado às ações que você tomou até o momento."
             break
         case '11':
             document.getElementById('centro').innerHTML = `<img src = "./img/11-justica.jpg">`
             document.getElementById('titulo').innerText = "XI - A Justiça"
-            document.getElementById('texto').innerText = "Esta carta traz a mensagem de que a situação em questão tende a se resolver a seu favor, ou, pelo menos, da forma mais justa possível. Pode ser um assunto da lei, o resultado final de uma situação específica, questões de relacionamento ou outras situações. O significado básico da carta muitas vezes fala sobre decisões equilibradas e justas."
+            document.getElementById('texto').innerText = "Esta carta traz a mensagem de que a situação em questão tende a se resolver a seu favor, ou, pelo menos, da forma mais justa possível. Pode ser um assunto da lei, o resultado final de uma situação específica, questões de relacionamento ou outras situações."
             break
         case '12':
             document.getElementById('centro').innerHTML = `<img src = "./img/12-enforcado.jpg">`
             document.getElementById('titulo').innerText = "XII - O Enforcado"
-            document.getElementById('texto').innerText = "O Enforcado quer dizer que você precisa se desapegar de algo e seguir em frente. Você pode estar se agarrando a algo que não traz satisfação na questão atual, como um amor não correspondido ou nocivo, um emprego que não te levará a lugar algum, uma promoção que não sai, etc. Ao mesmo tempo em que é uma carta que sinaliza que você pode esperar um pouco, também é uma carta que sugere que você pode sair dessa inércia e agir."
+            document.getElementById('texto').innerText = "O Enforcado quer dizer que você precisa se desapegar de algo e seguir em frente. Você pode estar se agarrando a algo que não traz satisfação na questão atual, como um amor não correspondido ou nocivo, um emprego que não te levará a lugar algum, uma promoção que não sai, etc."
             break
         case '13':
             document.getElementById('centro').innerHTML = `<img src = "./img/13-morte.jpg">`
             document.getElementById('titulo').innerText = "XIII - A Morte"
-            document.getElementById('texto').innerText = "O significado básico da carta A Morte é de que algo pode estar prestes a mudar e possivelmente trará renascimento, melhorando a condição da situação em questão. Tem a ver com términos, mas também traz consigo a possibilidade de novos começos, mudanças e transformações. A carta deve ser encarada como um símbolo de transição."
+            document.getElementById('texto').innerText = "O significado básico da carta A Morte é de que algo pode estar prestes a mudar e possivelmente trará renascimento, melhorando a condição da situação em questão. Tem a ver com términos, mas também traz consigo a possibilidade de novos começos, mudanças e transformações."
             break
         case '14':
             document.getElementById('centro').innerHTML = `<img src = "./img/14-temperanca.jpg">`
@@ -92,7 +92,7 @@ function sortearCarta() {
         case '15':
             document.getElementById('centro').innerHTML = `<img src = "./img/15-diabo.jpg">`
             document.getElementById('titulo').innerText = "XV - O Diabo"
-            document.getElementById('texto').innerText = "A carta indica que existem lições que você tem que aprender e isso nem sempre é ruim, sugere que algo que está te segurando, mas você não sabe muito bem o que é. Você pode estar cometendo excessos, pode estar enfermo ou alguém pode estar te atrapalhando. O fato é que talvez o sucesso almejado pode não estar presente ainda. A carta então traz uma mensagem clara: liberte-se!"
+            document.getElementById('texto').innerText = "A carta indica que existem lições que você tem que aprender e isso nem sempre é ruim, sugere que algo que está te segurando, mas você não sabe muito bem o que é. Você pode estar cometendo excessos, pode estar enfermo ou alguém pode estar te atrapalhando. A carta então traz uma mensagem clara: liberte-se!"
             break
         case '16':
             document.getElementById('centro').innerHTML = `<img src = "./img/16-torre.jpg">`
@@ -102,7 +102,7 @@ function sortearCarta() {
         case '17':
             document.getElementById('centro').innerHTML = `<img src = "./img/17-estrela.jpg">`
             document.getElementById('titulo').innerText = "XVII - A Estrela"
-            document.getElementById('texto').innerText = "A Estrela quando aparece, indica um momento em que as coisas começam a dar certo. Sugere que conflitos podem ser apaziguados, problemas de saúde curados, dívidas quitadas, separações que viram reuniões, situações que se tornam positivas, enfim, indica paz, prosperidade e harmonia em sua resposta. Às vezes também aponta a ajuda de alguém que agirá como seu protetor."
+            document.getElementById('texto').innerText = "A Estrela quando aparece, indica um momento em que as coisas começam a dar certo. Sugere que conflitos podem ser apaziguados, problemas de saúde curados, dívidas quitadas, separações que viram reuniões, situações que se tornam positivas, enfim, indica paz, prosperidade e harmonia em sua resposta."
             break
         case '18':
             document.getElementById('centro').innerHTML = `<img src = "./img/18-lua.jpg">`
