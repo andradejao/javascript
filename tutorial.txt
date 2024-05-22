@@ -163,3 +163,32 @@ Tipos de Js
 - boolean
 - function
 - object
+
+Aula 6 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Array (vetor)
+Array Multidimensional (Matriz)
+- É uma forma de trabalhar com variáveis
+- Índice [0],[1]...
+- Em JS array é um objeto
+
+ATENÇÃO!!!
+Cuidado ao manipular os dados e alterar o índice do array
+Mais seguro:
+push() // Adiciona dado ao final do array
+pop() // Exclui o último dado do array
+delete // Exclui um dado específico sem alterar a ordem do índice
+
+Percorrendo um array
+1º) for, forEach
+2º) map() // percorre um array, faz algo e gera outro array com o resultado
+
+Um array tamnbém pode ser criado como um objeto
+let nome = []
+let nome = new Array()
+
+Um array pode ser criado como uma estrutura de dados, junto com objetos
+e podem ser usados filtros para manipulação de dados
+
+ATENÇÃO!!!
+Sempre criar uma cópia do array original para exibição
