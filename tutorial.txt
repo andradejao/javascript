@@ -192,3 +192,14 @@ e podem ser usados filtros para manipulação de dados
 
 ATENÇÃO!!!
 Sempre criar uma cópia do array original para exibição
+__________________________________________________________________________
+DOM - documment object model
+É uma técnica para identificar elementos HTML (tags) que serão manipulados pelo CSS ou JS
+É uma forma de trabalhar objetos em HTML
+A técnica consiste em atribuir um id ao elemento
+
+
+setTimeout(()=>{},1000) // Usado para executar uma função infinitamente a cada determinado tempo (milisegundos)
+
+O JS é capaz de adicionar ou remover uma classe CSS ao documento HTML 
+______________________________________________________________________________

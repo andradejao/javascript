@@ -1,0 +1,28 @@
+/** 
+    Folha de Estilo Slide Show
+    @author João Vitor Andrade
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Efeito Fade */
+#slide.FadeOut {
+    opacity: 0.1;
+}
+
+#slide {
+    transition: opacity 2s;
+    opacity: 1;
+}
