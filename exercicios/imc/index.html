@@ -13,21 +13,24 @@
         <h1>Calcule seu IMC</h1>
         <form name="frmImc">
             <label>Idade</label>
-            <input type="number" name="txtIdade" id="" placeholder="Altura">
+            <input type="number" name="txtIdade" id="idade" class="caixa">
             <br>
             <label>Gênero</label>
-            <input type="radio" name="txtMasc" id="">Masculino
-            <input type="radio" name="txtFem" id="">Feminino
+            <input type="text" name="txtGenero" id="genero" placeholder="m/f">
             <br>
             <label>Peso</label>
-            <input type="number" name="txtPeso" id="" placeholder="Peso">
+            <input type="number" name="txtPeso" class="caixa" placeholder="kg" id="peso">
             <br>
             <label>Altura</label>
-            <input type="number" name="txtAltura" id="" placeholder="Altura">
+            <input type="number" name="txtAltura" class="caixa" id="altura" placeholder="cm">
+            <input type="button" value="Calcular" onclick="calcularImc()">
+            <input type="reset" value="Limpar" onclick="lim">
         </form>
     </div>
     <div class="roleta">
-        <img src="" alt="">
+        <h2>Resultado</h2>
+        <p id="valorImc"></p>
+        <img id="status" src="./img/default.png" alt="roleta imc">
     </div>
 
     <script src="imc.js"></script>
