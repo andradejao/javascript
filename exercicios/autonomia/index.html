@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Autonomia do Carro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Autonomia do Carro</h1>
+        <form id="autonomyForm">
+            <label for="capacity">Capacidade do Tanque/Bateria (L ou kWh):</label>
+            <input type="number" id="capacity" name="capacity" required>
+ 
+            <label for="consumption">Consumo Médio (km/L ou km/kWh):</label>
+            <input type="number" id="consumption" name="consumption" required>
+ 
+            <button type="submit">Calcular Autonomia</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
