@@ -13,18 +13,18 @@
         <h1>Calcule seu IMC</h1>
         <form name="frmImc">
             <label>Idade</label>
-            <input type="number" name="txtIdade" id="idade" class="caixa">
+            <input type="number" name="txtIdade" id="idade" class="caixa" required>
             <br>
             <label>Gênero</label>
             <input type="text" name="txtGenero" id="genero" placeholder="m/f">
             <br>
             <label>Peso</label>
-            <input type="number" name="txtPeso" class="caixa" placeholder="kg" id="peso">
+            <input type="number" name="txtPeso" class="caixa" placeholder="kg" id="peso" required>
             <br>
             <label>Altura</label>
-            <input type="number" name="txtAltura" class="caixa" id="altura" placeholder="cm">
+            <input type="number" name="txtAltura" class="caixa" id="altura" placeholder="cm" required>
             <input type="button" value="Calcular" onclick="calcularImc()">
-            <input type="reset" value="Limpar" onclick="lim">
+            <input type="reset" value="Limpar" onclick="limpar()">
         </form>
     </div>
     <div class="roleta">
