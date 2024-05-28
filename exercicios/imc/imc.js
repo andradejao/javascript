@@ -1,8 +1,13 @@
+/**
+ * Calculadora de IMC - JS
+ * @author João Vitor Andrade
+ */
+
 let peso, altura, idade, genero
 
 function calcularImc() {
     idade = Number(frmImc.txtIdade.value.replace(",", "."))
-    genero = Number(frmImc.txtGenero.value.replace(",", "."))
+    genero = String(frmImc.txtGenero.value)
     peso = Number(frmImc.txtPeso.value.replace(",", "."))
     altura = Number(frmImc.txtAltura.value.replace(",", "."))
 
