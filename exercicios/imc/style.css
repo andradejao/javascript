@@ -52,8 +52,9 @@ body {
     margin-bottom: 10px;
    }
    #status {
-    max-width: 200px;
+    max-width: 80%;
     margin: 0 auto;
+    margin-top: -100px;
    }
    
    .caixa {
