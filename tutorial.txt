@@ -245,3 +245,6 @@ try {
 } catch (error) {
 
 }
+
+Gerando um documento em pdf no js
+npm install jspdf

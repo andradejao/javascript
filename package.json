@@ -18,6 +18,7 @@
   "homepage": "https://github.com/andradejao/javascript#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "jspdf": "^2.5.1",
     "readline-sync": "^1.4.10"
   }
 }
